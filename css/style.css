@@ -182,6 +182,75 @@ body {
     line-height: 19px;  
 }
 
+.footer {
+
+}
+
+.footer__list {
+    background-image: url('../img/background-black.png');
+    display: flex;
+    flex-wrap: wrap;
+    height: 341px;
+    width: 100%;
+    top: 2960px;  
+    text-align: center;    
+}
+
+.footer__list-item {
+     
+}
+
+.footer__item-img {
+
+}
+
+.footer__item-title {
+    color: white;
+}
+
+.footer__item-desc {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../img/background-photo.png');
+    width: 100%;    
+}
+
+.footer__menu-item {
+
+}
+
+.footer__menu-img {
+
+}
+
+.footer__menu-title {
+    text-align: center;
+}
+
+.footer__menu-desc {
+
+}
+
+.footer__email {
+
+}
+
+.footer__email-send {
+    
+}
+
+.footer__menu-email {
+    
+}
 
 
 .header__menu-title {
