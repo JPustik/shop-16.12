@@ -1,0 +1,62 @@
+.main__title {
+    color: #F16D7F;
+    background-color: var(--pink-bkg);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    color: var(--pink-text);
+    text-transform: uppercase;
+}
+
+.main__button {
+    display: flex;
+    background-color: var(--pink-text);
+    color: white;
+}
+
+.main__title-profile {
+    background-image: url('../img/message.jpg');
+    width: 360px;
+    height: 45px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.main__title-header {
+    opacity: 0.5;
+}
+
+.main__profile {
+    text-align: left;
+}
+
+.main__item {
+
+}
+
+.main {
+    display: flex;
+}
+
+.main__text {
+    opacity: 0.75;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.footer__text {
+    color: white;
+    margin-left: 235px;
+}
+
+.footer__social-icon {
+    width: 147px;
+    height: 32px;
+    margin-right: 230px;
+}
