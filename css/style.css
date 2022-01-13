@@ -37,8 +37,7 @@ body {
 .header__logo {
     margin: 0 41px 0 0;
 }
-.header__search {
-}
+
 .header__button {
     background-color: transparent;
     border: 0;
@@ -69,9 +68,11 @@ body {
     align-items: center;
     padding: 0 0 0 92px;
     background-color: var(--pink-bkg);
+    width: 100%;
 }
 
 .brand__img {
+    background-color: var(--pink-bkg);
 }
 
 .brand__title {
@@ -105,20 +106,7 @@ body {
     flex-wrap: wrap;
 }
 
-.sales__item--woman {
-    background-image: url('../img/sales-woman.png');
-}
-
-.sales__item--man {
-    background-image: url('../img/hot-men.png');
-}
-
-.sales__item--kids {
-    background-image: url('../img/kids.png');
-}
-
 .sales__item--shoes {
-    background-image: url('../img/accesories.png');
     width: 100%;
 }
 
@@ -152,12 +140,20 @@ body {
 .products__item {
     width: 360px;
     min-height: 260px;
+    background-color: #C0C0C0;
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .products__list {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 230px;
+    padding-right: 230px;
+    justify-content: center;
+    align-items: center
 }
+
 
 .products__item-img {
     height: 420px;
@@ -182,10 +178,6 @@ body {
     line-height: 19px;  
 }
 
-.footer {
-
-}
-
 .footer__list {
     background-image: url('../img/background-black.png');
     display: flex;
@@ -194,14 +186,6 @@ body {
     width: 100%;
     top: 2960px;  
     text-align: center;    
-}
-
-.footer__list-item {
-     
-}
-
-.footer__item-img {
-
 }
 
 .footer__item-title {
@@ -215,55 +199,18 @@ body {
     line-height: 17px;
 }
 
-
-
 .footer__menu {
     display: flex;
-    flex-wrap: wrap;
     background-image: url('../img/background-photo.png');
-    width: 100%;    
+    width: 100%;  
+    height: 448px;  
 }
 
 .footer__menu-item {
-
-}
-
-.footer__menu-img {
-
+    padding-left: 811px;
+    padding-right: 230px;
 }
 
 .footer__menu-title {
     text-align: center;
-}
-
-.footer__menu-desc {
-
-}
-
-.footer__email {
-
-}
-
-.footer__email-send {
-    
-}
-
-.footer__menu-email {
-    
-}
-
-
-.header__menu-title {
-}
-.header__menu-list {
-}
-.header__menu-item {
-}
-.menu-sub-item {
-}
-.menu-sub-item__title {
-}
-.menu-sub-item__list {
-}
-.menu-sub-item__item-link {
 }

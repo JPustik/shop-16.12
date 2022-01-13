@@ -1,11 +1,15 @@
 .main__title {
     color: #F16D7F;
     background-color: var(--pink-bkg);
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 900;
     line-height: 58px;
     color: var(--pink-text);
     text-transform: uppercase;
+    padding-top: 59px;
+    padding-bottom: 60px;
+    padding-left: 230px;
+    padding-right: 1176px;
 }
 
 .main__button {
@@ -28,10 +32,6 @@
 
 .main__profile {
     text-align: left;
-}
-
-.main__item {
-
 }
 
 .main {
@@ -59,4 +59,41 @@
     width: 147px;
     height: 32px;
     margin-right: 230px;
+}
+
+.cart__main {
+    display: inline-block;
+    padding-top: 96px;
+}
+
+.cart__main-item {
+    display: flex;
+    padding-top: 40px;
+}
+
+.cart__main-text {
+    display: inline-block;
+}
+
+.main__img {
+    width: 45px;
+    height: 360px;
+}
+
+.main__adress {
+    display: inline-block;
+}
+
+.main__adress-block {
+    background-image: url('../img/Vector.png');
+    height: 45px;
+    width: 360px;
+}
+
+.main__title-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 45px;
+    width: 360px;
 }
