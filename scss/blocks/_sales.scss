@@ -1,0 +1,31 @@
+.sales {
+
+
+    &__item {
+        width: 360px;
+        min-height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__list {
+         display: flex;
+         flex-wrap: wrap;
+    }
+
+    &__item--shoes {
+        width: 100%;
+    }
+
+    &__item-text {
+        color: white;
+    }
+
+    &__item-title {
+        color: var(--pink-text);
+        display: block;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
